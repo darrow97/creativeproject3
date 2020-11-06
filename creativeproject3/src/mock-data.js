@@ -6,11 +6,11 @@ let mock = [
     alias: "Wolverine",
     image: "wolverine-james.jpg",
     pab: [
-      {"Regenerative Healing Factor"},
-      {"Superhuman Acute Senses, Stamina, Agility, and Reflexes"},
-      {"Adamantium bonded skeleton and claws"},
-      {"Psionic Resistance"},
-      {"Insulated Weather Adaptation"}
+      {power: "Regenerative Healing Factor"},
+      {power: "Superhuman Acute Senses, Stamina, Agility, and Reflexes"},
+      {power: "Adamantium bonded skeleton and claws"},
+      {power: "Psionic Resistance"},
+      {power: "Insulated Weather Adaptation"}
     ]
   },
   {
@@ -20,7 +20,7 @@ let mock = [
     alias: "Rogue",
     image: "rogue.jpg",
     pab: [
-      {"Power Absorption"}
+      {power: "Power Absorption"}
     ]
   },
   {
@@ -30,11 +30,11 @@ let mock = [
     alias: "Gambit",
     image: "gambit.jpg",
     pab: [
-      {"Molecular Acceleration"},
-      {"Static Interference"},
-      {"Precognition"},
-      {"Total Kinetic Control"},
-      {"Enhanced Agility"}
+      {power: "Molecular Acceleration"},
+      {power: "Static Interference"},
+      {power: "Precognition"},
+      {power: "Total Kinetic Control"},
+      {power: "Enhanced Agility"}
     ]
   },
   {
@@ -44,12 +44,12 @@ let mock = [
     alias: "Mister Sinister",
     image: "sinister.jpg",
     pab: [
-      {"Cellular Shapre Shifting"},
-      {"Superhuman Stamina, Speed, Durability, Strength, and Reflexes"},
-      {"Telepathy"},
-      {"Telekinesis"},
-      {"Teleportation"},
-      {"Immortality"}
+      {power: "Cellular Shapre Shifting"},
+      {power: "Superhuman Stamina, Speed, Durability, Strength, and Reflexes"},
+      {power: "Telepathy"},
+      {power: "Telekinesis"},
+      {power: "Teleportation"},
+      {power: "Immortality"}
     ]
   },
   {
@@ -59,10 +59,9 @@ let mock = [
     alias: "Jean Grey, Phoenix, Dark Phoenix",
     image: "jean-grey.jpg",
     pab: [
-      {"EXTENSIVE, SUMMARIZED TO 3 FOR SIMPLICITY"}
-      {"Telepathy"},
-      {"Telekinesis"},
-      {"Phoenix Force Avatar"}
+      {power: "Telepathy"},
+      {power: "Telekinesis"},
+      {power: "Phoenix Force Avatar"}
     ]
   },
   {
@@ -72,10 +71,10 @@ let mock = [
     alias: "Iceman",
     image: "iceman.jpg",
     pab: [
-      {"Thermokinesis"},
-      {"ThermalVision"},
-      {"Cryokinesis"},
-      {"Hydrokinesis"}
+      {power: "Thermokinesis"},
+      {power: "ThermalVision"},
+      {power: "Cryokinesis"},
+      {power: "Hydrokinesis"}
     ]
   },
   {
@@ -85,10 +84,10 @@ let mock = [
     alias: "Shadowcat",
     image: "kitty.jpg",
     pab: [
-      {"Phasing and Phasing Extension"},
-      {"Air Walking"},
-      {"Electrical Disruption"},
-      {"Telepathic Resistance"}
+      {power: "Phasing and Phasing Extension"},
+      {power: "Air Walking"},
+      {power: "Electrical Disruption"},
+      {power: "Telepathic Resistance"}
     ]
   },
   {
@@ -98,11 +97,11 @@ let mock = [
     alias: "Magik",
     image: "magik.jpg",
     pab: [
-      {"Stepping discs"},
-      {"Sorcery"},
-      {"Limbo control"},
-      {"Mystical Armor"},
-      {"Psionic Shields"}
+      {power: "Stepping discs"},
+      {power: "Sorcery"},
+      {power: "Limbo control"},
+      {power: "Mystical Armor"},
+      {power: "Psionic Shields"}
     ]
   },
   {
@@ -112,10 +111,10 @@ let mock = [
     alias: "Professor X",
     image: "xavier.jpg",
     pab: [
-      {"Telepathy"},
-      {"Telepathic Illusions, Cloak, and Camouflage"},
-      {"Mind Link, Blast, Control, Possession, Transferal, and Alteration"},
-      {"Psionic Shield, BLast"}
+      {power: "Telepathy"},
+      {power: "Telepathic Illusions, Cloak, and Camouflage"},
+      {power: "Mind Link, Blast, Control, Possession, Transferal, and Alteration"},
+      {power: "Psionic Shield, BLast"}
     ]
   },
   {
@@ -125,10 +124,10 @@ let mock = [
     alias: "Magneto, Erik Lehnsherr",
     image: "magneto.jpg",
     pab: [
-      {"Magnetokinesis"},
-      {"Electomagnetic Spectrum Manipulation"},
-      {"Astral Projection"},
-      {"Telepathic Resistance"}
+      {power: "Magnetokinesis"},
+      {power: "Electomagnetic Spectrum Manipulation"},
+      {power: "Astral Projection"},
+      {power: "Telepathic Resistance"}
     ]
   }
 ]
