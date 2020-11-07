@@ -58,7 +58,6 @@ export default {
   .subwrap
   {
     display: flex;
-    /* border: 1px solid green; */
     justify-content: center;
     align-content: center;
     position: relative;
@@ -71,7 +70,6 @@ export default {
     text-align: center;
     position: absolute;
     border-bottom: 2px solid black;
-
   }
 
   .notice

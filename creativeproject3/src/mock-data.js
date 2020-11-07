@@ -1,10 +1,27 @@
+let scenarios = [
+  {
+    id: 1,
+    minPower: 20,
+    minChemistry: 5,
+    name: "Sentinel Scout Party",
+    description: "Your team crosses paths with a Sentinel Scout party. Defeat them or be targeted by the nearby Sentinel Army."
+  },
+  {
+    id: 2,
+    minPower: 30,
+    minChemistry: 12,
+    name: "Ambush of Apocalyptic Proportions",
+    description: "Apocalypse and his Horsemen have ambushed your team. Defeat them or be defeated."
+  }
+]
+
 let mock = [
   {
     id: 1,
     name: "James 'Logan' Howlett",
-    affinity: "protagonist",
+    affinity: "Protagonist",
     alias: "Wolverine",
-    level: "4",
+    level: 4,
     image: "wolverine-james.jpg",
     pab: [
       {power: "Regenerative Healing Factor"},
@@ -17,9 +34,9 @@ let mock = [
   {
     id:"2",
     name: "Anna Marie",
-    affinity: "protagonist",
+    affinity: "Protagonist",
     alias: "Rogue",
-    level: "4",
+    level: 4,
     image: "rogue.jpg",
     pab: [
       {power: "Power Absorption"}
@@ -28,9 +45,9 @@ let mock = [
   {
     id:"3",
     name: "Remy LeBeau",
-    affinity: "protagonist",
+    affinity: "Protagonist",
     alias: "Gambit",
-    level: "8",
+    level: 8,
     image: "gambit.jpg",
     pab: [
       {power: "Molecular Acceleration"},
@@ -43,12 +60,12 @@ let mock = [
   {
     id:"4",
     name: "Nathan Essex",
-    affinity: "antagonist",
+    affinity: "Antagonist",
     alias: "Mister Sinister",
-    level: "6",
+    level: 6,
     image: "sinister.jpg",
     pab: [
-      {power: "Cellular Shapre Shifting"},
+      {power: "Cellular Shape Shifting"},
       {power: "Superhuman Stamina, Speed, Durability, Strength, and Reflexes"},
       {power: "Telepathy"},
       {power: "Telekinesis"},
@@ -59,9 +76,9 @@ let mock = [
   {
     id:"5",
     name: "Jean Grey",
-    affinity: "protagonist",
+    affinity: "Protagonist",
     alias: "Jean Grey, Phoenix, Dark Phoenix",
-    level: "8",
+    level: 8,
     image: "jean-grey.jpg",
     pab: [
       {power: "Telepathy"},
@@ -72,9 +89,9 @@ let mock = [
   {
     id:"6",
     name: "Robert 'Bobby' Drake",
-    affinity: "protagonist",
+    affinity: "Protagonist",
     alias: "Iceman",
-    level: "7",
+    level: 7,
     image: "iceman.jpg",
     pab: [
       {power: "Thermokinesis"},
@@ -86,9 +103,9 @@ let mock = [
   {
     id:"7",
     name: "Katherine 'Kitty' Pryde",
-    affinity: "protagonist",
+    affinity: "Protagonist",
     alias: "Shadowcat",
-    level: "5",
+    level: 5,
     image: "kitty.jpg",
     pab: [
       {power: "Phasing and Phasing Extension"},
@@ -100,9 +117,9 @@ let mock = [
   {
     id:"8",
     name: "Illyana Nikolievna Rasputina",
-    affinity: "hero",
+    affinity: "Protagonist",
     alias: "Magik",
-    level: "8",
+    level: 8,
     image: "magik.jpg",
     pab: [
       {power: "Stepping discs"},
@@ -115,9 +132,9 @@ let mock = [
   {
     id:"9",
     name: "Charles Xavier",
-    affinity: "protagonist",
+    affinity: "Protagonist",
     alias: "Professor X",
-    level: "9",
+    level: 9,
     image: "xavier.jpg",
     pab: [
       {power: "Telepathy"},
@@ -129,9 +146,9 @@ let mock = [
   {
     id:"10",
     name: "Max Eisenhardt",
-    affinity: "antagonist",
+    affinity: "Antagonist",
     alias: "Magneto, Erik Lehnsherr",
-    level: "9",
+    level: 9,
     image: "magneto.jpg",
     pab: [
       {power: "Magnetokinesis"},
@@ -143,9 +160,9 @@ let mock = [
   {
     id:"11",
     name: "Piotr Rasputin",
-    affinity: "protagonist",
+    affinity: "Protagonist",
     alias: "Colossus",
-    level: "5",
+    level: 5,
     image: "colossus.jpg",
     pab: [
       {power: "Organic Steel Transformation"},
@@ -155,9 +172,9 @@ let mock = [
   {
     id:"12",
     name: "Scoot Summers",
-    affinity: "protagonist",
+    affinity: "Protagonist",
     alias: "Cyclops",
-    level: "4",
+    level: 4,
     image: "cyclops.jpg",
     pab: [
       {power: "Optic Blast"},
@@ -168,9 +185,9 @@ let mock = [
   {
     id:"13",
     name: "Warren Kenneth Worthington III",
-    affinity: "protagonist",
+    affinity: "Protagonist",
     alias: "Angel",
-    level: "6",
+    level: 6,
     image: "angel.jpg",
     pab: [
       {power: "Wings and Aerial Adaption"},
@@ -183,9 +200,9 @@ let mock = [
   {
     id:"14",
     name: "Laura Kinney",
-    affinity: "protagonist",
+    affinity: "Protagonist",
     alias: "X-23, Talon, Laura Howlett",
-    level: "5",
+    level: 5,
     image: "laura.jpg",
     pab: [
       {power: "Regenerative Healing Factor"},
@@ -197,9 +214,9 @@ let mock = [
   {
     id:"15",
     name: "Nathan Christopher Charles Summers",
-    affinity: "protagonist",
+    affinity: "Protagonist",
     alias: "Cable",
-    level: "6",
+    level: 6,
     image: "cable.jpg",
     pab: [
       {power: "Cyberpathy and Telepathy"},

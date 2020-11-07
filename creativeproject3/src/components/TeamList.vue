@@ -1,9 +1,9 @@
 <template>
-  <div class="wrapper">
+  <div  class="wrapper">
     <div class="mutants">
-      <div class="mutant" v-for="mutant in mutants" :key="mutant.id">
+      <div class="mutant" v-for="mutant in team" :key="mutant.id">
         <div class="image">
-          <input @click="addToTeam(mutant)" type="image" :src="require('../images/'+mutant.image)">
+          <input @click="removeFromTeam(mutant)" type="image" :src="require('../images/'+mutant.image)">
           <!-- <img :src="require('../images/'+mutant.image)"> -->
         </div>
 
@@ -25,13 +25,16 @@
       </div>
     </div>
   </div>
+  <!-- <div v-else class="empty">
+    <p>Your team is yet to be built, unify the others!</p>
+  </div> -->
 </template>
 
 <script>
   export default {
-    name: 'MutantList',
+    name: 'TeamList',
     props: {
-      mutants: Array
+      team: Array
     },
     methods: {
       getPowers: function(powers)
@@ -44,22 +47,31 @@
 
         return powerList;
       },
-      addToTeam: function(mutant)
+      removeFromTeam: function(mutant)
       {
-        console.log(mutant);
         var id = mutant.id;
         var size = this.$root.$data.team.length;
-        var add = true;
-        if(size < 4)
+        console.log(mutant);
+        console.log(size);
+
+        for(var i = 0; i < size; i++)
         {
-          for(var i = 0; i < size; i++)
+          if(this.$root.$data.team[i].id === id)
           {
-            if(this.$root.$data.team[i].id === id) add = false;
+            this.$root.$data.team.splice(i,1);
+            break;
           }
-          if(add) this.$root.$data.team.push(mutant);
         }
 
-
+      }
+    },
+    computed: {
+      checkTeamSize: function()
+      {
+        var size = this.$root.$data.team.length;
+        console.log(size);
+        if(size > 0) return true;
+        return false;
       }
     }
   }
@@ -72,6 +84,8 @@
     justify-content: center;
     background: #aaaaaa;
   }
+
+
 
   .mutants {
     margin-top: 20px;

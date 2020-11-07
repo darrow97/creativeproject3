@@ -3,8 +3,8 @@
     <div id="nav">
       <h1>X-Men Team Builder</h1>
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">Team</router-link> |
-      <!-- <router-link to="/about">Scenarios</router-link> -->
+      <router-link to="/team">Team</router-link> |
+      <router-link to="/other">Scenarios</router-link>
     </div>
     <router-view/>
     <footer>
@@ -34,7 +34,7 @@
 #nav a {
   font-weight: bold;
   font-size: 1.3em;
-  color: #2c3e50;
+  color: #D6D0DA;
 }
 
 #nav a.router-link-exact-active {
@@ -54,7 +54,7 @@
 
 a
 {
-  color: #ffffff;
+  color: #D6D0DA;
 }
 
 footer
