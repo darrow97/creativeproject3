@@ -4,6 +4,7 @@ let mock = [
     name: "James 'Logan' Howlett",
     affinity: "protagonist",
     alias: "Wolverine",
+    level: "4",
     image: "wolverine-james.jpg",
     pab: [
       {power: "Regenerative Healing Factor"},
@@ -18,6 +19,7 @@ let mock = [
     name: "Anna Marie",
     affinity: "protagonist",
     alias: "Rogue",
+    level: "4",
     image: "rogue.jpg",
     pab: [
       {power: "Power Absorption"}
@@ -28,6 +30,7 @@ let mock = [
     name: "Remy LeBeau",
     affinity: "protagonist",
     alias: "Gambit",
+    level: "8",
     image: "gambit.jpg",
     pab: [
       {power: "Molecular Acceleration"},
@@ -42,6 +45,7 @@ let mock = [
     name: "Nathan Essex",
     affinity: "antagonist",
     alias: "Mister Sinister",
+    level: "6",
     image: "sinister.jpg",
     pab: [
       {power: "Cellular Shapre Shifting"},
@@ -57,6 +61,7 @@ let mock = [
     name: "Jean Grey",
     affinity: "protagonist",
     alias: "Jean Grey, Phoenix, Dark Phoenix",
+    level: "8",
     image: "jean-grey.jpg",
     pab: [
       {power: "Telepathy"},
@@ -69,6 +74,7 @@ let mock = [
     name: "Robert 'Bobby' Drake",
     affinity: "protagonist",
     alias: "Iceman",
+    level: "7",
     image: "iceman.jpg",
     pab: [
       {power: "Thermokinesis"},
@@ -82,6 +88,7 @@ let mock = [
     name: "Katherine 'Kitty' Pryde",
     affinity: "protagonist",
     alias: "Shadowcat",
+    level: "5",
     image: "kitty.jpg",
     pab: [
       {power: "Phasing and Phasing Extension"},
@@ -95,6 +102,7 @@ let mock = [
     name: "Illyana Nikolievna Rasputina",
     affinity: "hero",
     alias: "Magik",
+    level: "8",
     image: "magik.jpg",
     pab: [
       {power: "Stepping discs"},
@@ -109,6 +117,7 @@ let mock = [
     name: "Charles Xavier",
     affinity: "protagonist",
     alias: "Professor X",
+    level: "9",
     image: "xavier.jpg",
     pab: [
       {power: "Telepathy"},
@@ -122,6 +131,7 @@ let mock = [
     name: "Max Eisenhardt",
     affinity: "antagonist",
     alias: "Magneto, Erik Lehnsherr",
+    level: "9",
     image: "magneto.jpg",
     pab: [
       {power: "Magnetokinesis"},
@@ -135,6 +145,7 @@ let mock = [
     name: "Piotr Rasputin",
     affinity: "protagonist",
     alias: "Colossus",
+    level: "5",
     image: "colossus.jpg",
     pab: [
       {power: "Organic Steel Transformation"},
@@ -146,6 +157,7 @@ let mock = [
     name: "Scoot Summers",
     affinity: "protagonist",
     alias: "Cyclops",
+    level: "4",
     image: "cyclops.jpg",
     pab: [
       {power: "Optic Blast"},
@@ -158,6 +170,7 @@ let mock = [
     name: "Warren Kenneth Worthington III",
     affinity: "protagonist",
     alias: "Angel",
+    level: "6",
     image: "angel.jpg",
     pab: [
       {power: "Wings and Aerial Adaption"},
@@ -172,6 +185,7 @@ let mock = [
     name: "Laura Kinney",
     affinity: "protagonist",
     alias: "X-23, Talon, Laura Howlett",
+    level: "5",
     image: "laura.jpg",
     pab: [
       {power: "Regenerative Healing Factor"},
@@ -185,6 +199,7 @@ let mock = [
     name: "Nathan Christopher Charles Summers",
     affinity: "protagonist",
     alias: "Cable",
+    level: "6",
     image: "cable.jpg",
     pab: [
       {power: "Cyberpathy and Telepathy"},

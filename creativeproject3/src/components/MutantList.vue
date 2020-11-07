@@ -17,6 +17,10 @@
           <h1>{{mutant.name}}</h1>
           <h2>{{mutant.alias}}</h2>
         </div>
+        <div class="level">
+          <h3>Affinity: {{mutant.affinity}}</h3>
+          <h3>Power Level: {{mutant.level}}</h3>
+        </div>
       </div>
     </div>
   </div>
@@ -57,6 +61,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    overflow: auto;
   }
 
   .mutant {
@@ -66,6 +71,7 @@
     width: 500px;
     height: 300px;
     position: relative;
+    /* overflow: auto; */
   }
 
   .image img {
@@ -105,7 +111,7 @@
     align-content: center;
     background: #6CAAD0;
     border-left: 2px solid black;
-
+    overflow: auto;
   }
 
   ul
@@ -127,7 +133,6 @@
   .info {
     background: #000000;
     color: #fff;
-    /* padding: 1px; */
     right: 0;
     top: 235px;
     bottom: 0;
@@ -143,9 +148,25 @@
     font-size: 14px;
   }
 
-  .info p {
-    margin: 0px;
-    font-size: 10px;
+  .level
+  {
+    display: flex;
+    background: #B30900;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -35px;
+    right: -2px;
+    left: -2px;
+    height: 30px;
+    border: 2px solid black;
+  }
+
+  .level h3
+  {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   button {

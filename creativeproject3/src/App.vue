@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-      <h1>X-Men</h1>
+      <h1>X-Men Team Builder</h1>
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">Team</router-link> |
+      <!-- <router-link to="/about">Scenarios</router-link> -->
     </div>
     <router-view/>
     <footer>
