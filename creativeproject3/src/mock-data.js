@@ -114,7 +114,7 @@ let mock = [
       {power: "Telepathy"},
       {power: "Telepathic Illusions, Cloak, and Camouflage"},
       {power: "Mind Link, Blast, Control, Possession, Transferal, and Alteration"},
-      {power: "Psionic Shield, BLast"}
+      {power: "Psionic Shield, Blast"}
     ]
   },
   {
@@ -128,6 +128,70 @@ let mock = [
       {power: "Electomagnetic Spectrum Manipulation"},
       {power: "Astral Projection"},
       {power: "Telepathic Resistance"}
+    ]
+  },
+  {
+    id:"11",
+    name: "Piotr Rasputin",
+    affinity: "protagonist",
+    alias: "Colossus",
+    image: "colossus.jpg",
+    pab: [
+      {power: "Organic Steel Transformation"},
+      {power: "Superhuman Strength, Stamina, and Durability"}
+    ]
+  },
+  {
+    id:"12",
+    name: "Scoot Summers",
+    affinity: "protagonist",
+    alias: "Cyclops",
+    image: "cyclops.jpg",
+    pab: [
+      {power: "Optic Blast"},
+      {power: "Spatial Awareness"},
+      {power: "Energy Resistance"}
+    ]
+  },
+  {
+    id:"13",
+    name: "Warren Kenneth Worthington III",
+    affinity: "protagonist",
+    alias: "Angel",
+    image: "angel.jpg",
+    pab: [
+      {power: "Wings and Aerial Adaption"},
+      {power: "Superhuman Stamina and Durability"},
+      {power: "Regenerative Healing Factor"},
+      {power: "Energy Blasts"},
+      {power: "Essence Vision"}
+    ]
+  },
+  {
+    id:"14",
+    name: "Laura Kinney",
+    affinity: "protagonist",
+    alias: "X-23, Talon, Laura Howlett",
+    image: "laura.jpg",
+    pab: [
+      {power: "Regenerative Healing Factor"},
+      {power: "Superhuman Acute Senses, Stamina, Agility, and Durability"},
+      {power: "Regenerative Healing Factor"},
+      {power: "Adamantium bonded skeleton and claws"}
+    ]
+  },
+  {
+    id:"15",
+    name: "Nathan Christopher Charles Summers",
+    affinity: "protagonist",
+    alias: "Cable",
+    image: "cable.jpg",
+    pab: [
+      {power: "Cyberpathy and Telepathy"},
+      {power: "Techno-organics"},
+      {power: "Psychokinesis"},
+      {power: "Teleporation and Chronoskimming"},
+      {power: "Intuitive Aptitude"}
     ]
   }
 ]
