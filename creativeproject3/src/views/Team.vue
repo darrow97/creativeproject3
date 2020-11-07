@@ -4,8 +4,10 @@
       <div class="subwrap">
         <h1>Your Team</h1>
         <div class="teamInfo">
-          <h2>Team Chemistry: {{teamChemistry}} -
-             Team Power Level: {{teamPower}}</h2>
+          <h2>
+            Team Chemistry: {{teamChemistry}} -
+            Team Power Level: {{teamPower}}
+           </h2>
         </div>
         <div class="note">
           <h3>*Click on a mutant image to remove them from the team*</h3>
@@ -81,7 +83,7 @@ export default {
       }
       if(same) chemistryScore += 3 * size + 3;
       else chemistryScore += 3 * size - 2;
-      this.$root.$data.teamChemistry = teamChemistry;
+      // this.$root.$data.levels.push(chemistryScore);
       return chemistryScore;
     },
     teamPower()
@@ -107,7 +109,7 @@ export default {
       }
       if(same) teamPower += 5;
       else teamPower -= 1;
-      this.$root.$data.teamPower = teamPower;
+      // this.$root.$data.team.push(teamPower);
       return teamPower;
     }
   },

@@ -1,21 +1,4 @@
-let scenarios = [
-  {
-    id: 1,
-    minPower: 20,
-    minChemistry: 5,
-    name: "Sentinel Scout Party",
-    description: "Your team crosses paths with a Sentinel Scout party. Defeat them or be targeted by the nearby Sentinel Army."
-  },
-  {
-    id: 2,
-    minPower: 30,
-    minChemistry: 12,
-    name: "Ambush of Apocalyptic Proportions",
-    description: "Apocalypse and his Horsemen have ambushed your team. Defeat them or be defeated."
-  }
-]
-
-let mock = [
+let mock_mutants = [
   {
     id: 1,
     name: "James 'Logan' Howlett",
@@ -228,4 +211,5 @@ let mock = [
   }
 ]
 
-export default mock;
+export default mock_mutants;
+// export default ;

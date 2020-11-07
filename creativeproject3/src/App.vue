@@ -4,7 +4,7 @@
       <h1>X-Men Team Builder</h1>
       <router-link to="/">Home</router-link> |
       <router-link to="/team">Team</router-link> |
-      <router-link to="/other">Scenarios</router-link>
+      <router-link to="/scenarios">Scenarios</router-link>
     </div>
     <router-view/>
     <footer>
@@ -41,8 +41,6 @@
   color: #42b983;
 }
 
-
-
 #nav h1
 {
   color: #ffffff;
@@ -50,7 +48,6 @@
   left: 25px;
   top: 10px;
 }
-
 
 a
 {

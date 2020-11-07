@@ -1,14 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import mock from './mock-data.js'
-import scenarios from './mock-data.js'
+import mock_mutants from './mock-data-mutants.js'
+import mock_scenarios from './mock-data-scenarios.js'
 
 let data = {
-    mutants: mock,
-    scenarios: scenarios,
-    teamChemistry: 0,
-    teamPower: 0,
+    mutants: mock_mutants,
+    scenarios: mock_scenarios,
+    levels: [],
     team: []
 }
 
